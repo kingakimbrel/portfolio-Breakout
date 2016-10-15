@@ -149,6 +149,7 @@ window.onload = function () {
                 } else {
                     x = canvas.width / 2;
                     y = canvas.height - 30;
+                    dy = -dy;
                     paddleX = (canvas.width - paddleWidth) / 2;
                 }
             }
